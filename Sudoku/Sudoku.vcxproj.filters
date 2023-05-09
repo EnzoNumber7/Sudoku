@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Vue">
+      <UniqueIdentifier>{58c52ea3-e13c-4a41-a205-64e52b09701f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model">
+      <UniqueIdentifier>{6bb595b1-c1c8-44c5-9efc-6879f6f0f22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Controler">
+      <UniqueIdentifier>{1d980682-b036-4947-92b1-915de0feebf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu.c">
+      <Filter>Fichiers sources\Vue</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.c">
+      <Filter>Fichiers sources\Vue</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScreen.c">
+      <Filter>Fichiers sources\Vue</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.c">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.c">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.c">
+      <Filter>Fichiers sources\Controler</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateView.c">
+      <Filter>Fichiers sources\Controler</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifGrif.c">
+      <Filter>Fichiers sources\Controler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers sources\Vue</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Fichiers sources\Vue</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScreen.h">
+      <Filter>Fichiers sources\Vue</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Fichiers sources\Controler</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateView.h">
+      <Filter>Fichiers sources\Controler</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifGrid.h">
+      <Filter>Fichiers sources\Controler</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
